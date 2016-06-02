@@ -15,8 +15,8 @@ sudo make install
 ## Example usage
 This example reads pointclouds in PLY format from a given path.
 
-<pre>
-cd _[installation_path]_
-./bin/sequence_viewer_test _[path to the folder with the point cloud files]_
+```
+cd [[installation_path]]
+./bin/sequence_viewer_test [[path to the folder with the point cloud files]]
 
-</pre>
+```
