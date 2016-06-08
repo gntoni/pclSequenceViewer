@@ -26,7 +26,7 @@ void sequenceViewer::KeyboardEventOccurred(const pcl::visualization::KeyboardEve
             }
             if (pcl::io::loadPLYFile<pcl::PointXYZRGB> (params->files_[currentFile_], *params->cloud_) == -1) //* load the file
             {
-                PCL_ERROR ("Couldn't read file %s \n", params->files_[currentFile_]);
+                PCL_ERROR ("Couldn't read file %s \n", params->files_[currentFile_].c_str());
                 return;
             }
 

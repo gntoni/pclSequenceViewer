@@ -1,5 +1,6 @@
 # locate the necessary dependencies
 # add the necessary include directories
+
 find_package(PCL 1.3 REQUIRED)
 
 INCLUDE_DIRECTORIES(${PCL_INCLUDE_DIRS} 
